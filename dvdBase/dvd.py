@@ -9,7 +9,7 @@ import csvreport_dvd
 
 #MAIN MENU
 def Menu():
-    os.system('cls')
+    os.system('clear')
     print """
     ================================
     DVD DATABASE
@@ -30,13 +30,13 @@ choice = ""
 while choice != "6":    
     choice = Menu()
     if choice == "1":
-        os.system('cls')
+        os.system('clear')
         add_dvd.AddDVD()
     elif choice == "2":
-        os.system('cls')
+        os.system('clear')
         lookup_dvds.LookupDVD()
     elif choice == "3":
-        os.system('cls')
+        os.system('clear')
         modify_dvd.ModifyDVD()
     elif choice == "4":
         delete_dvd.DeleteDVD()

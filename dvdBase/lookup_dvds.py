@@ -16,7 +16,7 @@ def SQLLookupDVD(searchby, searchtext):
         print "THERE WAS A PROBLEM ACCESSING THE DATABASE"
         raw_input("Press Enter to continue:  ")
         return        
-    os.system('cls')
+    os.system('clear')
     print "==============================="
     print "DVD SEARCH RESULTS:"
     print "==============================="

@@ -20,7 +20,7 @@ def WriteCSV():
         return
     
     try:
-        os.system('cls')
+        os.system('clear')
         print "==============================="
         print "EXPORT DATABASE TO CSV:"
         print "==============================="

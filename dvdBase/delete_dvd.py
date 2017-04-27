@@ -21,7 +21,7 @@ def SQLDeleteDVD(dvdToDelete):
 #TAKE USER INPUT AND RUN FUNCTION TO DELETE THE SELECTED RECORD
 def DeleteDVD():
     
-    os.system('cls')
+    os.system('clear')
     print "==============================="
     print "DELETE A DVD RECORD:"
     print "==============================="
