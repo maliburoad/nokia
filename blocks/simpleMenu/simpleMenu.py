@@ -1,24 +1,19 @@
 #!/usr/bin/env python
-
 import os
-import add_dvd
-import lookup_dvds
-import modify_dvd
-import delete_dvd
-import csvreport_dvd
 
+1
 #MAIN MENU
 def Menu():
     os.system('clear')
     print """
     ================================
-    DVD DATABASE
+    Simple Menu
     ================================
-    1 - Add a DVD to the database
-    2 - Search inventory
-    3 - Modify DVD record
-    4 - Delete DVD record
-    5 - Export listing to CSV
+    1 - do A action
+    2 - do B action
+    3 - do C action
+    4 - do D action
+    5 - do E action
     6 - Exit
     ================================
     """
@@ -26,19 +21,28 @@ def Menu():
     return choice
 
 #TAKE CHOICE AND LAUNCH MODULE
+
 choice = ""
-while choice != "6":    
+
+while choice != "6":
     choice = Menu()
     if choice == "1":
         os.system('clear')
-        add_dvd.AddDVD()
+        print 'A'
+        raw_input("Press enter to continue:  ")
     elif choice == "2":
         os.system('clear')
-        lookup_dvds.LookupDVD()
+        print 'B'
+        raw_input("Press enter to continue:  ")
     elif choice == "3":
         os.system('clear')
-        modify_dvd.ModifyDVD()
+        print 'C'
+        raw_input("Press enter to continue:  ")
     elif choice == "4":
-        delete_dvd.DeleteDVD()
+        os.system('clear')
+        print 'D'
+        raw_input("Press enter to continue:  ")
     elif choice == "5":
-        csvreport_dvd.WriteCSV()
+        os.system('clear')
+        print 'E'
+        raw_input("Press enter to continue:  ")
