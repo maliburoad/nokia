@@ -2,8 +2,7 @@
 
 import os
 
-1
-#MAIN MENU
+
 def Menu():
     os.system('clear')
     print """
