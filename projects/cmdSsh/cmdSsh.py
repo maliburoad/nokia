@@ -68,9 +68,9 @@ def Menu():
     =  cmdSsh       =
     =================
     1 - sw rev
-    2 - zombie
-    3 - unit
-    4 - 17
+    2 - unit
+    3 - 17
+    4 - zombie
     5 - hwid
     6 - Exit
     =================
@@ -126,4 +126,3 @@ while choice != "6":
         print out
         closeSSH(rfm)
         raw_input("Press enter to continue:  ")
-
